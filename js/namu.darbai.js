@@ -61,8 +61,51 @@ console.log(z + ',' + y + ' ' + x);
 
 console.log('-------------------------------');
 
+const n = 4;
+const m = 2;
 
+if (n === m) {
+    console.log('pomidoras');
+} else {
+    console.log('bandykite kita karta');
+}
 
+console.log('-------------------------------');
 
+const x1 = 9;
+const x2 = 9;
 
+if (x1 > x2) {
+    console.log('skaicius', x1, 'yra didesnis negu', x2);
+} else if (x1 === x2) {
+    console.log("skaiciai yra lygus", x1);
+} else {
+    console.log('skaicius', x2, 'yra didesnis negu', x1);
+}
 
+console.log('-------------------------------');
+
+const tekstas1 = 'zodis turi daug prasmiu';
+const tekstas2 = 'niekam prasmes neidomios';
+
+if (tekstas1.length > tekstas2.length) {
+    console.log("pirmas tekstas yra ilgesnis");
+} else if (tekstas2.length === tekstas1.length) {
+    console.log("tekstai yra lygus");
+} else {
+    console.log("antras tekstas yra ilgesnis");
+}
+
+console.log('-------------------------------');
+
+const txt1 = ['pomidoras', 'aviete', "kede", "batai", "ratai"];
+const txt2 = ['bulve', 'bananas', 'tulpe', 'medis'];
+console.log(txt1.length);
+console.log(txt2.length);
+if (txt1.length > txt2.length) {
+    console.log("pirmas sarasas yra ilgesnis");
+} else if (txt2.length === txt1.length) {
+    console.log("sarasai yra lygus");
+} else {
+    console.log("antras sarasa yra ilgesnis");
+}
