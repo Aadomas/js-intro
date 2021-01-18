@@ -38,4 +38,7 @@ for (let i = 0; i < size; i++) {
 //     console.log(i, letter, reverseText);
 // }
 
-console.log('Finale gavau:', reverseText);
+console.log('Finale gavau:', reverseText)
+
+console.log('--------------------------------------------');
+
