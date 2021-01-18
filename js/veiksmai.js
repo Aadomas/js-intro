@@ -1,3 +1,4 @@
+"use strict";
 const s1 = 2;
 const s2 = 7;
 const s3 = 5;

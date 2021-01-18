@@ -1,3 +1,4 @@
+"use strict";
 const pirmas = 1;
 console.log(pirmas);
 

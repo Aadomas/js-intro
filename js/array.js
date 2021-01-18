@@ -1,3 +1,4 @@
+"use strict";
 /*
 Array - bet kokiu elementu sarasas (prioritetas, to paties tipo elementai)
 */
